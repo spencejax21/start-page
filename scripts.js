@@ -12,9 +12,9 @@ function setTimeMessage() {
     let hour = parseInt(hourMinute[0]);
     console.log(hourMinute);
 
-    if (hourMinute[0] >= 5 && hourMinute[0] < 12) {
+    if (hour >= 5 && hour < 12) {
         document.getElementById("time-message").innerHTML = "Good Morning,";
-    } else if (hourMinute[0] >= 12 && hourMinute[0] < 7) {
+    } else if (hour >= 12 && hour < 19) {
         document.getElementById("time-message").innerHTML = "Good Afternoon,";
     } else {
         document.getElementById("time-message").innerHTML = "Good Evening,";
