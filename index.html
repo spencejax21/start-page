@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>New Tab</title>
+</head>
+<body>
+    <div class="tile">
+        <image src="torii_gif3.gif" class="gif">
+        <div class="content-container">
+            <div style="display: flex; flex-direction: row;">
+                <div class="welcome">
+                    <h1><span id="time-message">Good morning,</span><br> <span style="color:#bd93f9;">Spencer</span></h1>
+                </div>
+                <div class="time">
+                    <h1 id="time"><span id="first-num">00</span><span class="visible" id="colon">:</span><span id="second-num">00</span></h1>
+                </div>
+            </div>
+            <form method="get" action="https://www.google.com/search">
+                <input type="text" class="search-field" autofocus placeholder="Looking for something?" autocomplete=off name="q" value="">
+            </form>
+            <div class="link-container">
+                <div class="box" id="box-1">
+                    <h2 class="header">GENERAL</h2>
+                    <div>
+                        <a class="middle" href="https://mail.google.com/mail/u/0/#inbox" >Gmail</a>
+                        <a class="middle" href="https://www.reddit.com/" >Reddit</a>
+                        <a class="middle" href="https://keep.google.com/u/0/" >Google Keep</a>
+                        <a class="middle" href="https://www.amazon.com/" >Amazon</a>
+                    </div>
+                </div>
+                <div class="box" id="box-2">
+                    <h2 class="header">COLLEGE</h2>
+                    <div>
+                        <a class="middle" href="https://sisuva.admin.virginia.edu" >SIS</a>
+                        <a class="middle" href="https://calendar.google.com/calendar/u/1/r" >Calendar</a>
+                        <a class="middle" href="https://mail.google.com/mail/u/1/#inbox" >Gmail</a>
+                        <a class="middle" href="https://collab.its.virginia.edu/portal" >Collab</a>
+                    </div>
+                </div>
+                <div class="box" id="box-3">
+                    <h2 class="header">PROGRAMMING</h2>
+                    <div>
+                        <a class="middle" href="https://github.com/" >GitHub</a>
+                        <a class="middle" href="https://trello.com/en-US" >Trello</a>
+                        <a class="middle" href="https://stackoverflow.com/" >Stack Overflow</a>
+                        <a class="middle" href="https://dashboard.heroku.com/apps" >Heroku</a>
+                    </div>
+                </div>
+                <div class="box" id="box-4">
+                    <h2 class="header">MEDIA</h2>
+                    <div>
+                        <a class="middle" href="https://www.netflix.com/browse" >Netflix</a>
+                        <a class="middle" href="https://www.youtube.com/" >YouTube</a>
+                        <a class="middle" href="https://www.hulu.com/profiles?next=/" >Hulu</a>
+                        <a class="middle" href="https://www.twitch.tv/" >Twitch</a>
+                    </div>
+                </div>
+            </div>
+            <div class="quote">
+                <h2><span class="curly-quote">&ldquo;</span><span id="quote-content">Be the change you wish to see in the world</span><span class="curly-quote">&rdquo;</span>
+                    <span id="quote-author" style="color: rgba(98,114,164,0.25);"></span></h2>
+            </div>
+        </div>
+    </div>
+    <script src="scripts.js"></script>
+</body>
+</html>
