@@ -136,6 +136,7 @@ a.middle:hover:before {
     font-size: 1vw;
     font-style: italic;
     margin-left: 5%;
+    margin-top: 5%;
 }
 .curly-quote {
     color: rgba(98,114,164,0.25);

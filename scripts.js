@@ -40,7 +40,7 @@ function setTime() {
     document.getElementById("second-num").innerHTML = timeArray[1];
 }
 
-async function getQuote() {
+/**async function getQuote() {
     try {
         let response = await fetch("https://api.quotable.io/random");
         json = await response.json();
@@ -49,9 +49,9 @@ async function getQuote() {
     }
     document.getElementById("quote-content").innerHTML = json["content"];
     document.getElementById("quote-author").innerHTML = " " + json["author"];
-}
+}**/
 setTimeMessage();
-getQuote();
+//getQuote();
 setTime();
 
 setInterval(function () {
